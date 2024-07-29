@@ -66,6 +66,7 @@ Keep repeating the sequence until you have completed all of the notes!
 
 ## Updates
 
+Version 1.10 - Fix hanging issue on new FW. (Free popup on exit)
 Version 1.9 - Common code update.
 Version 1.8 - Common code update.
 Version 1.7 - Common code update.

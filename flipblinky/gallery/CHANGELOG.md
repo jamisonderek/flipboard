@@ -1,3 +1,5 @@
+## 3.6
+ - Fix hanging issue on new FW. (Free popup on exit)
 ## 3.5
  - Common code update
 ## 3.4

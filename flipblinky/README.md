@@ -99,6 +99,7 @@ If you choose to have a different effect than just scrolling, find `flipboard_do
 
 ## Updates
 
+- Version 3.6 : Fix hanging issue on new FW. (Free popup on exit)
 - Version 3.5 : Common code update
 - Version 3.4 : Common code update
 - Version 3.3 : Common code update

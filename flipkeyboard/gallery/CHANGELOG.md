@@ -1,3 +1,5 @@
+## 3.9
+ - Fix hanging issue on new FW. (Free popup on exit)
 ## 3.8
  - Some keys not rendering in Keystroke selector.
 ## 3.7

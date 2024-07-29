@@ -1,3 +1,5 @@
+## 1.10
+ - Fix hanging issue on new FW. (Free popup on exit)
 ## 1.9
  - Common code update.
 ## 1.8
