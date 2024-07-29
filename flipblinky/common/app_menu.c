@@ -109,6 +109,10 @@ void app_menu_free(AppMenu* menu) {
         submenu_free(menu->submenu);
     }
 
+    if(menu->popup) {
+        popup_free(menu->popup);
+    }
+
     free(menu);
 }
 
@@ -149,7 +153,6 @@ static void app_menu_popup_done(void* context) {
     AppMenu* menu = (AppMenu*)context;
     view_dispatcher_switch_to_view(menu->view_dispatcher, FLIPBOARD_APP_MENU_VIEW_ID);
     view_dispatcher_remove_view(menu->view_dispatcher, 42042);
-    popup_free(menu->popup);
 }
 
 /**
