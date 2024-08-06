@@ -1,16 +1,16 @@
-#define TAG "FlipboardSignal"
-#define FLIPBOARD_APP_NAME "signal"
+#define TAG                         "FlipboardSignal"
+#define FLIPBOARD_APP_NAME          "signal"
 #define FLIPBOARD_PRIMARY_ITEM_NAME "Flipboard Signal"
 
 // Uncomment the next line to use the LED driver, or comment to use bit-banging the WS2812B LEDs.
 #define USE_LED_DRIVER 1
 
-#define FIRMWARE_SUPPORTS_SUBGHZ 1
+#define FIRMWARE_SUPPORTS_SUBGHZ       1
 #define APP_USES_SUBGHZ_PROTOCOL_ITEMS 1
 
 #define ABOUT_TEXT                                   \
     "Welcome to the Flipboard\n"                     \
-    "Signal v3.11!\n"                                \
+    "Signal v3.12!\n"                                \
     "Quickly send to any device!\n\n"                \
     "Be sure to put your .SUB\n"                     \
     "files in 'SD Card/subghz'\n"                    \

@@ -70,6 +70,7 @@ Make sure your FlipBoard is connected to your Flipper Zero. Choose the `Start ap
 
 ## Updates
 
+- Version 3.12 : Map button combinations to sub files.
 - Version 3.11 : Fix hanging issue on new FW. (Free popup on exit)
 - Version 3.10 : Common code update.
 - Version 3.9 : Show "FlipSignal (IR/SUBGHZ)".

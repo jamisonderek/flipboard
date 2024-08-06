@@ -238,15 +238,59 @@ static bool custom_event_handler(void* context, uint32_t event) {
         if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip2")) {
             send_ir(model, "/ext/infrared/assets/tv.ir", "Mute");
         }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 2 | 0 | 0)) {
+        send_subghz(model, "/ext/subghz/flip3.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip3")) {
+        }
     } else if(event == CustomEventFlipboardButtonPress + (0 | 0 | 4 | 0)) {
         send_subghz(model, "/ext/subghz/flip4.sub");
         if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip4")) {
             send_ir(model, "/ext/infrared/assets/tv.ir", "Ch_prev");
         }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 0 | 4 | 0)) {
+        send_subghz(model, "/ext/subghz/flip5.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip5")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (0 | 2 | 4 | 0)) {
+        send_subghz(model, "/ext/subghz/flip6.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip6")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 2 | 4 | 0)) {
+        send_subghz(model, "/ext/subghz/flip7.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip7")) {
+        }
     } else if(event == CustomEventFlipboardButtonPress + (0 | 0 | 0 | 8)) {
         send_subghz(model, "/ext/subghz/flip8.sub");
         if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip8")) {
             send_ir(model, "/ext/infrared/assets/tv.ir", "Ch_next");
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 0 | 0 | 8)) {
+        send_subghz(model, "/ext/subghz/flip9.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip9")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (0 | 2 | 0 | 8)) {
+        send_subghz(model, "/ext/subghz/flip10.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip10")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 2 | 0 | 8)) {
+        send_subghz(model, "/ext/subghz/flip11.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip11")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (0 | 0 | 4 | 8)) {
+        send_subghz(model, "/ext/subghz/flip12.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip12")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 0 | 4 | 8)) {
+        send_subghz(model, "/ext/subghz/flip13.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip13")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (0 | 2 | 4 | 8)) {
+        send_subghz(model, "/ext/subghz/flip14.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip14")) {
+        }
+    } else if(event == CustomEventFlipboardButtonPress + (1 | 2 | 4 | 8)) {
+        send_subghz(model, "/ext/subghz/flip15.sub");
+        if(!send_ir(model, "/ext/infrared/flipboard.ir", "Flip15")) {
         }
     }
 
